@@ -20,5 +20,10 @@ export class AppController {
   myJSON(){
     return this.appService.myJSON();
   }
+
+  @Get('/GitHub')
+  GitHub(){
+    return this.appService.GitHub();
+  }
 }
 

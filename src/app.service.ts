@@ -20,5 +20,9 @@ showInformation(): string{
       age: 19,
     };
   }
+
+  GitHub(){
+    return 'Git and GitHub using';
+  }
 }
 
