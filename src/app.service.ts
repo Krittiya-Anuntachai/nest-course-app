@@ -24,5 +24,9 @@ showInformation(): string{
   GitHub(){
     return 'Git and GitHub using';
   }
+
+  usepostman(){
+    return 'we use postman';
+  }
 }
 
