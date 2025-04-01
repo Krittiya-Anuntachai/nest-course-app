@@ -8,27 +8,30 @@ export class AppController {
   @Get()
   getHello(): string {
     return this.appService.getHello();
-  }  
-  
+  }
+
   @Get()
   showInformation(): string {
     return this.appService.showInformation();
   }
 
-
   @Get('/myJSON')
-  myJSON(){
+  myJSON() {
     return this.appService.myJSON();
   }
 
   @Get('/GitHub')
-  GitHub(){
+  GitHub() {
     return this.appService.GitHub();
   }
 
   @Get('/usepostman')
-  usepostman(){
+  usepostman() {
     return this.appService.usepostman();
   }
-}
 
+  @Get('/showjson')
+  showjson() {
+    return this.appService.showjson();
+  }
+}

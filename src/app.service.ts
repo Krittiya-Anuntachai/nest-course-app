@@ -6,27 +6,35 @@ export class AppService {
     return 'We love NestJS';
   }
 
-  getName(): string{
+  getName(): string {
     return 'Krittiya Anuntachai';
   }
-showInformation(): string{
+  showInformation(): string {
     return 'Hello, I am Krittiya Anuntachai, I am 19 years old';
   }
 
   myJSON() {
-    return{
+    return {
       name: 'Krittiya',
       lastname: 'Anuntachai',
       age: 19,
     };
   }
 
-  GitHub(){
+  GitHub() {
     return 'Git and GitHub using';
   }
 
-  usepostman(){
+  usepostman() {
     return 'we use postman';
   }
-}
 
+  showjson() {
+    return {
+      name: 'Krittiya',
+      lastname: 'Anuntachai',
+      age: 19,
+      version: process.env.API_VERSION,
+    };
+  }
+}
